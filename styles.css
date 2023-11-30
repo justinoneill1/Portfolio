@@ -79,7 +79,6 @@ nav {
 .header-photo {
     max-width: 1000px;
     margin: auto;
-
 }
 
 .blur {
@@ -105,6 +104,14 @@ h2 {
     
 }
 
+#resume-link {
+    color: #3457D5;
+}
+
+.pace-img {
+    padding-top: 75px;
+}
+
 .skills-container{
     display: flex;
     justify-content: space-between;
@@ -123,3 +130,23 @@ h2 {
     text-align: center;
 }
 
+.lang-icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    margin: 0;
+}
+
+.lang-icons {
+    flex: 0 0 15%;
+    text-align: center;
+}
+
+.icon {
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
