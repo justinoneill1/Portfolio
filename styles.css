@@ -105,4 +105,21 @@ h2 {
     
 }
 
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.skills {
+    flex: 1;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+}
 
