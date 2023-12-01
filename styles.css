@@ -61,7 +61,7 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: #1d337a;
     transition: all 0.3s ease;
 }
 
@@ -104,8 +104,9 @@ h2 {
     
 }
 
-#resume-link {
+#download-link {
     color: #3457D5;
+    font-weight: bold;
 }
 
 .pace-img {
@@ -149,4 +150,61 @@ h2 {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.projects-container {
+    padding-top: 25px;
+}
+
+.proj-desc-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.proj-desc-list, .pers-port-btn {
+    padding-left: 25px;
+}
+
+button.btn {
+    display: inline-block;
+    padding: 3px 12px;
+    font-size: 16px;
+    background-color: #3457D5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.btn:hover {
+    background-color: #1d337a;
+}
+
+.contact-container {
+    padding-top: 25px;
+}
+
+#email-icon, #email-address, #linkedin-icon, #linkedin-link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#email-icon {
+    width: 30px;
+}
+
+#linkedin-icon {
+    width: 50px;
+    margin-left: -10px;
+}
+
+#linkedin-link {
+    color: #3457D5;
+    font-weight: bold;
+}
+
+#linkedin-link:hover, #download-link:hover {
+    text-decoration: underline;
+    color: #1d337a;
 }
